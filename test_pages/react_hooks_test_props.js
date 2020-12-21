@@ -34,7 +34,7 @@ export default {
             include: undefined,
             nav: [
                 {
-                    link: '/pagic_template_docs/introduction/index.html',
+                    link: '/deno_pagic/introduction/index.html',
                     text: 'Docs'
                 },
                 {
@@ -43,7 +43,7 @@ export default {
                 },
                 {
                     align: 'right',
-                    link: '/pagic_template_docs/about/index.html',
+                    link: '/deno_pagic/about/index.html',
                     text: 'About'
                 }
             ],
