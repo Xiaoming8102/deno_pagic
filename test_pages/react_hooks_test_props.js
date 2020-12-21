@@ -1,4 +1,4 @@
-import projectConfig from '/pagic_template_docs/pagic.config.js';
+import projectConfig from '/deno_pagic/pagic.config.js';
 import ReactHooksTest from './react_hooks_test_content.js';
 export default {
     'prev': {
@@ -60,7 +60,7 @@ export default {
                 'prev_next'
             ],
             port: 8000,
-            root: '/pagic_template_docs/',
+            root: '/deno_pagic/',
             serve: false,
             sidebar: {
                 '/': [
@@ -98,7 +98,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
+        React.createElement("script", { src: "/deno_pagic/index.js", type: "module" })),
     'sidebar': [
         {
             "text": "Introduction",

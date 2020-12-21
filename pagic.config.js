@@ -2,7 +2,7 @@
 export default {
     srcDir: '.',
     exclude: ['LICENSE'],
-    root: '/pagic_template_docs/',
+    root: '/deno_pagic/',
     theme: 'docs',
     plugins: ['sidebar', 'prev_next'],
     title: 'Pagic template docs',
